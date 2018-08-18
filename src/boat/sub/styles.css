@@ -1,0 +1,44 @@
+.sub {
+  min-height: 100vh;
+
+  display: grid;
+  grid:
+    "sonar stats" 25vh
+    "sonar controls" 75vh
+    / 100vh auto;
+}
+
+.sub__sonar {
+  grid-area: sonar;
+
+  background: black url('/svg/sonar-background.svg') center center no-repeat no-repeat;
+  stroke: lightgreen;
+  stroke-width: .25px;
+}
+
+.sonar__sweep {
+  stroke-width: 1px;
+}
+
+.sub__stats {
+  grid-area: stats;
+
+  background: grey;
+  padding: 1rem;
+}
+
+.sub__stats h2 {
+  font-size: 12px;
+  color: white;
+}
+
+.sub__stats dt, .sub__stats dd {
+  display: inline-block;
+}
+
+.sub__controls {
+  grid-area: controls;
+
+  background: white;
+  padding: 1rem;
+}

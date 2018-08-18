@@ -1,0 +1,90 @@
+.surface {
+  min-height: 100vh;
+}
+
+.surface__peritop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 10;
+
+  background: darkgrey;
+  height: 10vh;
+}
+
+.surface__sky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 1;
+
+  background: lightblue;
+  height: 50vh;
+}
+
+.surface__clouds {
+  position: fixed;
+  top: 25vh;
+  left: 25vw;
+  right: 25vw;
+
+  z-index: 2;
+
+  background: url('http://www.stickpng.com/assets/images/580b585b2edbce24c47b263b.png') center center no-repeat no-repeat;
+  background-size: contain;
+  height: 10vh;
+}
+
+.surface__water {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 1;
+
+  background: url('https://previews.123rf.com/images/seaonweb/seaonweb1109/seaonweb110900159/10584584-ocean-water-background.jpg') top center no-repeat no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.surface__nearwater {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 8;
+
+  background: darkblue;
+  height: 25vh;
+}
+
+.surface__ship {
+  position: fixed;
+  top: 45vh;
+  left: 10vw;
+  right: 10vw;
+
+  z-index: 5;
+
+  background: url('https://weaponsandwarfare.files.wordpress.com/2015/03/7f17a-2000px-shadowgraph_kreiserskaya_class_submarinesvg_1.png') center center no-repeat no-repeat;
+  background-size: contain;
+  height: 10vh;
+}
+
+.surface__peribot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: darkgrey;
+
+  z-index: 10;
+
+  height: 10vh;
+}
